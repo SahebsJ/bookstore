@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green: #0e3705;
+    --green: #970f71;
     --dark-color:#219150;
     --black:#444;
     --light-color:#666;
@@ -41,8 +41,9 @@ html::-webkit-scrollbar-thumb{
 }
 
 section{
-  background: url(../image/blog-3.jpg) no-repeat;
-    padding:5rem 9%;
+    padding:5rem 8%;
+    /* background: url(../image/bbanner-bg) no-repeat ;
+    background-size: 300px 100px */
 }
 
 .heading{
@@ -76,7 +77,7 @@ section{
     padding:.9rem 3rem;
     border-radius: .5rem;
     color:#fff;
-    background:var(--green);
+    background:#2bbfa5;
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
@@ -492,6 +493,7 @@ section{
     padding:2rem 1rem;
     border:var(--border);
     margin:1rem 0;
+    background: darkgrey;
 }
 
 .arrivals .arrivals-slider .box:hover{
