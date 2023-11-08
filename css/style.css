@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#ae276a;
+    --green: #0e3705;
     --dark-color:#219150;
     --black:#444;
     --light-color:#666;
@@ -41,6 +41,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 section{
+  background: url(../image/blog-3.jpg) no-repeat;
     padding:5rem 9%;
 }
 
@@ -86,7 +87,7 @@ section{
 }
 
 .header .header-1{
-    background:#fff;
+    background: #e4ecf1;
     padding:1.5rem 9%;
     display: flex;
     align-items: center;
@@ -334,6 +335,7 @@ section{
 
 .icons-container{
     display: grid;
+    background: bisque;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
@@ -523,7 +525,7 @@ section{
 }
 
 .deal{
-    background:#f3f3f3;
+    background: #c6e6f9;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
